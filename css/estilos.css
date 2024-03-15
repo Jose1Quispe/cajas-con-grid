@@ -1,0 +1,122 @@
+.contenedor1{
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 25% 25% auto auto;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    font-size: 35pt;
+    
+}
+#caja1{
+    background-color: cyan;
+    border-style: solid;
+    border-color: black;
+    grid-column: 1/5;
+    
+}
+#caja2{
+    background-color: coral;
+    border-style: solid;
+    border-color: black;
+    grid-column: 1/3;
+}
+#caja3{
+    background-color: chartreuse;
+    border-style: solid;
+    border-color: black;
+    grid-column:3/4 ;
+
+}
+#caja4{
+    background-color: chartreuse;
+    border-style: solid;
+    border-color: black;
+    grid-column:4/5 ;
+}
+#caja5{
+    background-color: darkorchid;
+    border-style: solid;
+    border-color: black;
+    grid-column: 1/2;
+
+}
+#caja6{
+    background-color: cornflowerblue;
+    border-style: solid;
+    border-color: black;
+    grid-column: 2/5;
+}
+#caja7{
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+#caja8{
+    background-color: firebrick;
+    border-style: solid;
+    border-color: black;
+    grid-column:3/5 ;
+}
+#caja9{
+    background-color: gray;
+    border-style: solid;
+    border-color: black;
+    grid-column:3/5 ;
+}
+
+.contenedor2{
+    background-color: chocolate;
+    border-style: solid;
+    display: flex;
+    flex-direction:  row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+#hijo1{
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+    margin: auto ;
+    border-style: solid;
+    border-color: blueviolet;
+
+}
+#hijo2{
+    background-color: lightcoral;
+    width: 350px;
+    height: 150px;
+    margin: auto;
+    border-style: solid;
+    border-color: blueviolet;
+    align-items: center;
+
+}
+#hijo2-1{
+    background-color:gold;
+    width: 318px;
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    border-style: solid;
+}
+#hijo2-2{
+    background-color: darkslategrey;
+    width: 150px;
+    height: 50px;
+    margin: 6px;
+    position: relative;
+    display: inline-block;
+    border-style: solid;
+}
+#hijo3{
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-style: solid;
+    border-color: blueviolet;
+
+}
